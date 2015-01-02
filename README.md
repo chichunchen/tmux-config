@@ -1,6 +1,11 @@
-[Tmux](http://tmux.sourceforge.net/) is a terminal multiplexer. Tested with tmux 1.5 and 1.6.
+[Tmux](http://tmux.sourceforge.net/) is a terminal multiplexer. This tmux-config is forked from [here](http://www.github.com/tony/tmux-config.git)
 
-This config has support for [tmux-mem-cpu](http://github.com/thewtex/tmux-mem-cpu-load).
+Feature
+-------
+
+- Support for [tmux-mem-cpu](http://github.com/thewtex/tmux-mem-cpu-load).
+- Zsh as default shell.
+- Add [reattach-to-user-namespace](http://brewformulas.org/ReattachToUserNamespace) to accessing the Mac OS X pasteboard in tmux sessions.
 
 Installation
 ------------
