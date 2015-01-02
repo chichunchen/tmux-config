@@ -2,15 +2,13 @@
 
 This config has support for [tmux-mem-cpu](http://github.com/thewtex/tmux-mem-cpu-load).
 
-Prefix mapped to Ctrl-A for `screen` users.
-
 Installation
 ------------
 
   Download:
 
 ```bash
-git clone https://github.com/tony/tmux-config.git ~/.tmux
+git clone https://github.com/chichunchen/tmux-config.git ~/.tmux
 ```
 
   Copy tmux config to home:
@@ -78,7 +76,7 @@ cd ~
 ```
 tmux
 ```
-  And press `Control + a` then `d` to go back to the terminal.
+  And press `Control + b` then `d` to go back to the terminal.
 
   Update config:
 
@@ -128,26 +126,25 @@ Start tmux
 Commands
 --------
 
-  Our prefix/leader key is `Control + a` now (just like the `screen` multiplexer). This sequence must be typed before any tmux shortcut.
-
-  * `Control + a` before any command
-  * `Control + a` then `?` to bring up list of keyboard shortcuts
-  * `Control + a` then `"` to split window
-  * `Control + a` then `<Space>` to change pane arrangement
-  * `Control + a` then `o` to rotate panes
-  * `Control + a` then `h`, `j`, `k`, `l` to move left, down, up, right. Respectively. (vim hjkl)
-  * `Control + a` then `;` to go to last panel
+  * `Control + b` before any command
+  * `Control + b` then `?` to bring up list of keyboard shortcuts
+  * `Control + b` then `"` to split window
+  * `Control + b` then `<Space>` to change pane arrangement
+  * `Control + b` then `o` to rotate panes
+  * `Control + b` then `h`, `j`, `k`, `l` to move left, down, up, right. Respectively. (vim hjkl)
+  * `Control + b` then `;` to go to last panel
 
   Beyond your first window:
 
-  * `Control + a` then `c` to create a new window
-  * `Control + a` then `n` to next window
-  * `Control + a` then `p` to previous window
-  * `Control + a` then `[0-9]` move to window number
-  * `Control + a` then `&` to kill window
+  * `Control + b` then `c` to create a new window
+  * `Control + b` then `n` to next window
+  * `Control + b` then `p` to previous window
+  * `Control + b` then `[0-9]` move to window number
+  * `Control + b` then `&` to kill window
 
 
 by Tony Narlock (tony@git-pull.com)
+forked by Chi-Chun, Chen 
 
 * Github: http://www.github.com/tony
 * Website: http://www.git-pull.com
