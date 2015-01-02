@@ -1,9 +1,10 @@
-[Tmux](http://tmux.sourceforge.net/) is a terminal multiplexer. This tmux-config is forked from [here](http://www.github.com/tony/tmux-config.git)
+[Tmux](http://tmux.sourceforge.net/) is a terminal multiplexer. This tmux-config is forked from http://www.github.com/tony/tmux-config.git.
 
 Feature
 -------
 
 - Support for [tmux-mem-cpu](http://github.com/thewtex/tmux-mem-cpu-load).
+- Vim key-bindings.
 - Zsh as default shell.
 - Add [reattach-to-user-namespace](http://brewformulas.org/ReattachToUserNamespace) to accessing the Mac OS X pasteboard in tmux sessions.
 
@@ -149,7 +150,5 @@ Commands
 
 
 by Tony Narlock (tony@git-pull.com)
-forked by Chi-Chun, Chen 
 
-* Github: http://www.github.com/tony
-* Website: http://www.git-pull.com
+forked by Chi-Chun, Chen 
